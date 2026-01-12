@@ -13,10 +13,46 @@ alumno = [
 ]
 
 #Ejercicio 1 — Mostrar todos los nombres
-
+'''
 for i in alumno:
     print(i["nombre"])
 
 #Ejercicio 2 Mostrar nombres y un valor numérico
 for i in alumno:
     print(f"{i['nombre']} tiene un {i['nota']}")
+'''
+#5 mayor y menor
+def MayorMenor():
+    mayor =0
+    menor = 9999
+    nomMayor = ""
+    nomMenor = ""
+
+    for i in alumno:
+        if i['nota']> mayor:
+            mayor = i['nota']
+            nomMayor = i['nombre']
+        if i['nota']< menor:
+            menor = i['nota']
+            nomMenor = i['nombre']
+    
+    print(f"El mayor es {nomMayor} con una nota{mayor} ")
+    print(f"El menor es  {nomMenor} con una nota{menor} ")
+    
+#6
+
+def FiltrarPorNota():
+    tuNota = int(input("Introduce tu nota "))
+    simplificada =  []
+
+    for i in alumno:
+        if tuNota < i['nota']:
+            print(i)
+
+
+#8 Valor contextual
+
+def ValorContextual():
+        print("")
+
+
