@@ -11,4 +11,3 @@ alumno = [
     {"nombre":"Patricia", "edad":19, "nota":6.25, "Juego Favorito":"Animal Crossing", "deuda_publica":"0 (miente)"},
     {"nombre":"Enrique", "edad":42, "nota":8.8, "Juego Favorito":"Mario Kart", "deuda_publica":"0 (miente)"}
 ]
-dsadsadsadsa
