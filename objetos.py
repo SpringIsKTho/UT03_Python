@@ -11,12 +11,8 @@ alumno = [
     {"nombre":"Patricia", "edad":19, "nota":6.25, "Juego Favorito":"Animal Crossing", "deuda_publica":"0 (miente)"},
     {"nombre":"Enrique", "edad":42, "nota":8.8, "Juego Favorito":"Mario Kart", "deuda_publica":"0 (miente)"}
 ]
-<<<<<<< HEAD
 
 #Ejercicio 1 — Mostrar todos los nombres
 
 for i in alumno:
     print(i["nombre"])
-=======
-dsadsadsadsa
->>>>>>> 7a2cace3ff024fdb29e1b58876a9cb0edaf3b593
