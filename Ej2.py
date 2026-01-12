@@ -12,11 +12,6 @@ alumno = [
     {"nombre":"Enrique", "edad":42, "nota":8.8, "Juego Favorito":"Mario Kart", "deuda_publica":"0 (miente)"}
 ]
 
-#Ejercicio 1 — Mostrar todos los nombres
-
-for i in alumno:
-    print(i["nombre"])
-
 #Ejercicio 2 Mostrar nombres y un valor numérico
 for i in alumno:
     print(f"{i['nombre']} tiene un {i['nota']}")
